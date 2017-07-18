@@ -1,3 +1,3 @@
-default: 
+default:
     extension: .vim
-    output: colors
+    output: autoload/lightline/colorscheme
