@@ -1,0 +1,10 @@
+version: "3"
+services:
+  builder:
+    build: .
+    volumes:
+      - ./autoload/lightline/colorscheme/:/colorscheme
+    working_dir: /base16-builder-go/templates/vim-lightline/autoload/lightline/colorscheme/
+    command: /bin/sh -c "rm /colorscheme/*; mv *.vim /colorscheme/;"
+
+
