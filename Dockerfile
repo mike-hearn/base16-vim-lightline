@@ -13,7 +13,7 @@ RUN go get && go build
 RUN ./base16-builder-go update
 RUN echo "vim-lightline: https://github.com/mike-hearn/base16-vim-lightline" >> sources/templates/list.yaml
 RUN ./base16-builder-go update
-RUN ./base16-builder-go build
+RUN ./base16-builder-go build --ignore-errors
 
 WORKDIR /base16-builder-go/templates/vim-lightline
 RUN sh postbuild.sh
