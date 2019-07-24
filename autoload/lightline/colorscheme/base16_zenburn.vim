@@ -1,7 +1,7 @@
-let s:base00 = [ '#3f3f3f',  0 ] " black
+let s:base00 = [ '#383838',  0 ] " black
 let s:base01 = [ '#404040', 18 ]
 let s:base02 = [ '#606060', 19 ]
-let s:base03 = [ '#4f4f4f',  8 ]
+let s:base03 = [ '#6f6f6f',  8 ]
 let s:base04 = [ '#808080', 20 ]
 let s:base05 = [ '#dcdccc',  7 ]
 let s:base06 = [ '#c0c0c0', 21 ]
