@@ -3,9 +3,9 @@ let s:base01 = [ '#af0000', 18 ]
 let s:base02 = [ '#008700', 19 ]
 let s:base03 = [ '#5f8700',  8 ]
 let s:base04 = [ '#0087af', 20 ]
-let s:base05 = [ '#878787',  7 ]
+let s:base05 = [ '#444444',  7 ]
 let s:base06 = [ '#005f87', 21 ]
-let s:base07 = [ '#444444', 15 ] " white
+let s:base07 = [ '#878787', 15 ] " white
 
 let s:base08 = [ '#bcbcbc',  1 ] " red
 let s:base09 = [ '#d70000', 16 ] " orange
